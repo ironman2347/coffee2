@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Barlow', sans-serif;
+}
+
+main {
+    flex-grow: 1;
+}
+
+ul,ol {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Fraunces',serif;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+}

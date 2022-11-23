@@ -1,0 +1,39 @@
+.head {
+    margin-bottom: 48px;
+}
+
+.head1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head_w_l {
+    display: flex;
+    align-items: center;
+    
+}
+
+.head_w_img {
+    margin-right: 8px;
+}
+
+.head_logo_t {}
+.head_w_r {}
+
+.head_w_list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 283px;
+}
+
+.head_w_item {}
+
+.head_w_link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}

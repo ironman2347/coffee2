@@ -1,0 +1,46 @@
+.type {
+}
+
+.type1 {
+    display: flex;
+    justify-content: center;
+}
+
+.type_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1111px;
+    background-image: url(./../img/ourc.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 200px;
+}
+
+.type_w_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1111px;
+}
+
+.type_w_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 255px;
+}
+
+.type_w_head {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.type_w_text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
