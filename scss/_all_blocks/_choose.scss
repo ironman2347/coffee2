@@ -39,22 +39,26 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center; 
-        width: 350px;
-        height: 382px;     
+        width: 350px;    
         background: #0E8784;
         border-radius: 8px;
     }
     
-    &_w-i-img {} 
+    &_w-i-img {
+        margin-top: 72px;
+        margin-bottom: 56px;
+    } 
     
     &_w-i-head {
         width: 100%;
         text-align: center;
+        margin-bottom: 24px;
     } 
     
     &_w-i-text {
         width: 255px;
         text-align: center;
+        margin-bottom: 48px;
     }
 }
 .choose1 {
