@@ -67,4 +67,65 @@
     background: #2C343E;
 }
 
-
+@media only screen and (max-width: 768px){
+    .foot {
+        display: flex;
+        position: sticky;
+        margin-bottom: 88px;
+        &_wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 1080px;
+            height: 120px;
+        }
+        
+        &__w-menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 622px;
+        }
+        
+        &__w-l {
+            display: flex;
+            align-items: center;
+        }
+        
+        &__w-img {
+            margin-right: 8px;
+        }
+        
+        &__w-logot {
+        }
+        
+        &__w-r {
+        }
+        
+        &__w-list {
+            display: flex;
+            justify-content: space-evenly;
+            width: 283px;
+        }
+        
+        &__w-item {
+        }
+        
+        &__w-link {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+            color: #83888F;
+        }
+        
+        &__w-linky {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__w-link1 {
+        }
+    }
+}

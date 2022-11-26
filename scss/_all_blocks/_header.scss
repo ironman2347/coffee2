@@ -1,39 +1,102 @@
 .head {
-    margin-bottom: 48px;
+    
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        width: 1280px;    
+        padding: 20px 0 0 0;
+        margin-bottom: 48px;
+    }
+    
+    &__w-l {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__w-img {
+        margin-right: 8px;
+    }
+    
+    &__menu {
+        display: none;
+    }
+    
+    &__w-r {
+    }
+    
+    &__w-list {
+        display: flex;
+        justify-content: space-evenly;
+        width: 283px;
+    }
+    
+    &__w-item {
+    }
+    
+    &__w-link {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+    }
 }
-
 .head1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.head_w_l {
-    display: flex;
-    align-items: center;
+@media only screen and (max-width: 900px){
+    .head {
+        margin-bottom: 48px;
+        
+        &__wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1280px; 
+            width: 1280px;    
+            padding: 20px 0 0 0;
+            margin-bottom: 48px;
+        }
+        
+        &__w-l {
+            display: flex;
+            align-items: center;
+        }
+        
+        &__w-img {
+            margin-right: 8px;
+        }
+        
+        &__menu {
+            background-image: url(./../../img/menu.png);
+        }
+        
+        &__w-r {
+        }
+        
+        &__w-list {
+            display: flex;
+            justify-content: space-evenly;
+            width: 283px;
+        }
+        
+        &__w-item {
+            display: none;
+        }
+        
+        &__w-link {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+            color: #83888F;
+        }
+    }
     
-}
-
-.head_w_img {
-    margin-right: 8px;
-}
-
-.head_logo_t {}
-.head_w_r {}
-
-.head_w_list {
-    display: flex;
-    justify-content: space-evenly;
-    width: 283px;
-}
-
-.head_w_item {}
-
-.head_w_link {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 0.923077px;
-    text-transform: uppercase;
-    color: #83888F;
 }
