@@ -6,8 +6,10 @@
         background-position:center ;
         background-repeat: no-repeat;
         background-size: auto;
-        padding: 117px 702px 117px 85px;
         border-radius: 10px;
+        width: 100%;
+        overflow: hidden;
+        padding: 117px 702px 117px 85px;
     }
     
     &__w-head {
@@ -47,24 +49,33 @@
     }
 }
 .hero1 {
-    max-width: 1280px;
+    background-image: url(./../img/fon.png);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
 }
-@media only screen and (max-width: 1280px){
-    .hero1 {
-        min-width: 327px;
-    }
-}
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 768px){
     .hero {
-        margin-bottom: 262px;    
+        margin-bottom: 144px;    
         &__wrap {
+            background-image: url(./../img/fon.png);
+            background-position:center ;
+            background-repeat: no-repeat;
+            background-size: auto;
+            border-radius: 10px;
+            width: 100%;
+            padding: 104px 233px 120px 58px;
+            overflow: hidden;
         }
         
         &__w-head {
             font-size: 48px;
             line-height: 48px;
             color: #FEFCF7;
-            width: 493px;
+            width: 329px;
             margin-bottom: 32px;
         }
         
@@ -74,7 +85,7 @@
             color: #FEFCF7;
             mix-blend-mode: normal;
             opacity: 0.8;
-            width: 445px;
+            width: 398px;
             margin-bottom: 56px;
         }
         
@@ -96,33 +107,35 @@
             color: #FEFCF7;
         }
     }
-    
     .hero1 {
         background-image: url(./../img/fon.png);
-        background-position: center;
+        background-position:center ;
         background-repeat: no-repeat;
-        background-size: auto;
-        min-width: 327px;
+        background-size: 100%;
         border-radius: 10px;
+        width: 100%;
+        overflow: hidden;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 530px){
     .hero {
-        margin-bottom: 262px;    
+        margin-bottom: 120px;    
         &__wrap {
             background-image: url(./../img/fon.png);
-            background-position: center;
+            background-position:center ;
             background-repeat: no-repeat;
             background-size: auto;
-            min-width: 327px;
             border-radius: 10px;
+            width: 100%;
+            padding: 100px 24px;
+            overflow: hidden;
         }
         
         &__w-head {
             font-size: 40px;
             line-height: 40px;
             color: #FEFCF7;
-            width: 493px;
+            width: 279px;
             margin-bottom: 32px;
         }
         
@@ -132,7 +145,7 @@
             color: #FEFCF7;
             mix-blend-mode: normal;
             opacity: 0.8;
-            width: 445px;
+            width: 279px;
             margin-bottom: 56px;
         }
         
@@ -154,5 +167,13 @@
             color: #FEFCF7;
         }
     }
-    
+    .hero1 {
+        background-image: url(./../img/fon.png);
+        background-position:center ;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 10px;
+        width: 100%;
+        overflow: hidden;
+    }
 }

@@ -4,7 +4,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between; 
-        width: 1280px;    
+        width: 100%; 
         padding: 20px 0 0 0;
         margin-bottom: 48px;
     }
@@ -15,6 +15,8 @@
     }
     
     &__w-img {
+        width: 236px;
+        height: 26px;
         margin-right: 8px;
     }
     
@@ -42,17 +44,24 @@
         text-transform: uppercase;
         color: #83888F;
     }
+    &__w-link:hover {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #333D4B;
+    }
 }
 .head1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
-@media only screen and (max-width: 900px){
-    .head {
-        margin-bottom: 48px;
-        
+@media only screen and (max-width: 768px){
+    .head {        
         &__wrap {
             display: flex;
             align-items: center;
@@ -69,14 +78,81 @@
         }
         
         &__w-img {
+            width: 236px;
+            height: 26px;
             margin-right: 8px;
         }
         
         &__menu {
             background-image: url(./../../img/menu.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            display: block;
+            width: 16px;
+            height: 15px;
         }
         
         &__w-r {
+            display: none;
+        }
+        
+        &__w-list {
+            display: flex;
+            justify-content: space-evenly;
+            width: 283px;
+        }
+        
+        &__w-item {
+            display: none;
+        }
+        
+        &__w-link {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+            color: #83888F;
+        }
+    }
+    
+}
+@media only screen and (max-width: 530px){
+    .head {        
+        &__wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1280px; 
+            width: 1280px;    
+            padding: 20px 0 0 0;
+            margin-bottom: 48px;
+        }
+        
+        &__w-l {
+            display: flex;
+            align-items: center;
+        }
+        
+        &__w-img {
+            width: 163px;
+            height: 18px;
+            margin-right: 8px;
+        }
+        
+        &__menu {
+            background-image: url(./../../img/menu.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            display: block;
+            width: 16px;
+            height: 15px;
+        }
+        
+        &__w-r {
+            display: none;
         }
         
         &__w-list {
