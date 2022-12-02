@@ -1,5 +1,5 @@
 .hero {
-    margin-bottom: 262px;    
+    margin-bottom: 136px;    
     
     &__wrap {
         background-image: url(./../img/fon.png);
@@ -89,13 +89,6 @@
             margin-bottom: 56px;
         }
         
-        &__w-link {
-            background: #0E8784;
-            border-radius: 6px;
-            width: 217px;
-            height: 56px;
-        }
-        
         &__w-linkt {
             display: flex;
             align-items: center;
@@ -129,9 +122,13 @@
             width: 100%;
             padding: 100px 24px;
             overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         
         &__w-head {
+            text-align: center;
             font-size: 40px;
             line-height: 40px;
             color: #FEFCF7;
@@ -140,6 +137,7 @@
         }
         
         &__w-headt {
+            text-align: center;
             font-size: 15px;
             line-height: 25px;
             color: #FEFCF7;
@@ -147,13 +145,6 @@
             opacity: 0.8;
             width: 279px;
             margin-bottom: 56px;
-        }
-        
-        &__w-link {
-            background: #0E8784;
-            border-radius: 6px;
-            width: 217px;
-            height: 56px;
         }
         
         &__w-linkt {
