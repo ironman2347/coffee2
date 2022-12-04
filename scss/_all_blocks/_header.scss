@@ -63,7 +63,7 @@
     }
     
     .head__icon--open {
-        display: none;
+        display: inline-block;
     }
     
     .head__icon--close {
@@ -110,20 +110,6 @@
         }
     }
 
-    .head--open {
-        .head__w-r {
-            display: none;
-        }
-        
-        .head__icon--open {
-            display: inline-block;
-        }
-        
-        .head__icon--close {
-            display: none;
-        }  
-    }
-    
 }
 @media only screen and (max-width: 530px){
     .head {
